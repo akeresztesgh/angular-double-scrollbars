@@ -20,7 +20,7 @@ Based on the AngularJS version [here](https://github.com/przno/double-scroll-bar
 ```
  <lib-angular-double-scrollbars doubleScrollBarHorizontal='always'>
     <div (whatever)></div>
-</lib-angular-double-scrollbars>
+ </lib-angular-double-scrollbars>
 ```
 
 
