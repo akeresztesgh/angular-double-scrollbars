@@ -1,0 +1,21 @@
+{
+  "name": "angular-double-scrollbars",
+  "version": "0.0.1",
+  "peerDependencies": {
+    "@angular/common": "^8.2.14",
+    "@angular/core": "^8.2.14"
+  },
+  "main": "bundles/angular-double-scrollbars.umd.js",
+  "module": "fesm5/angular-double-scrollbars.js",
+  "es2015": "fesm2015/angular-double-scrollbars.js",
+  "esm5": "esm5/angular-double-scrollbars.js",
+  "esm2015": "esm2015/angular-double-scrollbars.js",
+  "fesm5": "fesm5/angular-double-scrollbars.js",
+  "fesm2015": "fesm2015/angular-double-scrollbars.js",
+  "typings": "angular-double-scrollbars.d.ts",
+  "metadata": "angular-double-scrollbars.metadata.json",
+  "sideEffects": false,
+  "dependencies": {
+    "tslib": "^1.9.0"
+  }
+}
