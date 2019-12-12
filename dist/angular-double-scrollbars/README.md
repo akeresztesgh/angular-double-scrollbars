@@ -23,3 +23,5 @@ npm i --save angular-double-scrollbars
  <lib-angular-double-scrollbars doubleScrollBarHorizontal='always'>
     looooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooong text
  </lib-angular-double-scrollbars>
+
+ example [plunker](https://next.plnkr.co/edit/liGXeHHE7kQRbE5M)
