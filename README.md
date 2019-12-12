@@ -5,7 +5,7 @@ Based on the AngularJS version [here](https://github.com/przno/double-scroll-bar
 
 # Installation 
 
-1. npm install https://github.com/akeresztesgh/angular-double-scrollbars
+1. npm install --save https://github.com/akeresztesgh/angular-double-scrollbars
 
 2. Add to module (app.module.ts) under declarations: 
 
