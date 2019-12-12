@@ -19,7 +19,7 @@ Based on the AngularJS version [here](https://github.com/przno/double-scroll-bar
 3. Use in code: 
 ```
  <lib-angular-double-scrollbars doubleScrollBarHorizontal='always'>
-    <div (whatever)></div>
+    Loooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo text
  </lib-angular-double-scrollbars>
 ```
 
