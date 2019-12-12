@@ -23,4 +23,4 @@ Based on the AngularJS version [here](https://github.com/przno/double-scroll-bar
  </lib-angular-double-scrollbars>
 ```
 
-example [plunker](https://next.plnkr.co/edit/liGXeHHE7kQRbE5M)
+Example [plunker](https://next.plnkr.co/edit/liGXeHHE7kQRbE5M)

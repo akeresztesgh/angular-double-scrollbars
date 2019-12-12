@@ -24,4 +24,4 @@ npm i --save angular-double-scrollbars
     looooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooong text
  </lib-angular-double-scrollbars>
 
- example [plunker](https://next.plnkr.co/edit/liGXeHHE7kQRbE5M)
+ Example [plunker](https://next.plnkr.co/edit/liGXeHHE7kQRbE5M)
