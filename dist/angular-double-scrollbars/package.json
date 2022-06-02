@@ -1,26 +1,34 @@
 {
   "name": "angular-double-scrollbars",
-  "version": "0.0.6",
+  "version": "0.0.1",
+  "dependencies": {
+    "tslib": "^2.0.0"
+  },
   "peerDependencies": {
     "@angular/common": "^8.2.14",
     "@angular/core": "^8.2.14"
   },
-  "main": "bundles/angular-double-scrollbars.umd.js",
-  "module": "fesm5/angular-double-scrollbars.js",
-  "es2015": "fesm2015/angular-double-scrollbars.js",
-  "esm5": "esm5/angular-double-scrollbars.js",
-  "esm2015": "esm2015/angular-double-scrollbars.js",
-  "fesm5": "fesm5/angular-double-scrollbars.js",
-  "fesm2015": "fesm2015/angular-double-scrollbars.js",
+  "module": "fesm2015/angular-double-scrollbars.mjs",
+  "es2020": "fesm2020/angular-double-scrollbars.mjs",
+  "esm2020": "esm2020/angular-double-scrollbars.mjs",
+  "fesm2020": "fesm2020/angular-double-scrollbars.mjs",
+  "fesm2015": "fesm2015/angular-double-scrollbars.mjs",
   "typings": "angular-double-scrollbars.d.ts",
-  "metadata": "angular-double-scrollbars.metadata.json",
-  "sideEffects": false,
-  "dependencies": {
-    "tslib": "^1.9.0"
+  "exports": {
+    "./package.json": {
+      "default": "./package.json"
+    },
+    ".": {
+      "types": "./angular-double-scrollbars.d.ts",
+      "esm2020": "./esm2020/angular-double-scrollbars.mjs",
+      "es2020": "./fesm2020/angular-double-scrollbars.mjs",
+      "es2015": "./fesm2015/angular-double-scrollbars.mjs",
+      "node": "./fesm2015/angular-double-scrollbars.mjs",
+      "default": "./fesm2020/angular-double-scrollbars.mjs"
+    }
   },
-  "keywords": [
-    "Angular",
-    "ScrollBars"
-  ],
-  "homepage": "https://github.com/akeresztesgh/angular-double-scrollbars"
+  "sideEffects": false,
+  "scripts": {
+    "prepublishOnly": "node --eval \"console.error('ERROR: Trying to publish a package that has been compiled by Ivy in full compilation mode. This is not allowed.\\nPlease delete and rebuild the package with Ivy partial compilation mode, before attempting to publish.\\n')\" && exit 1"
+  }
 }

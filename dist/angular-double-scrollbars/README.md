@@ -2,27 +2,23 @@
 
 This library was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.2.14.
 
-website is [here](https://github.com/akeresztesgh/angular-double-scrollbars)
+## Code scaffolding
 
-## Installation
-npm i --save angular-double-scrollbars
+Run `ng generate component component-name --project angular-double-scrollbars` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module --project angular-double-scrollbars`.
+> Note: Don't forget to add `--project angular-double-scrollbars` or else it will be added to the default project in your `angular.json` file. 
 
-## Usage
+## Build
 
-1. Add to module (app.module.ts) under declarations: 
+Run `ng build angular-double-scrollbars` to build the project. The build artifacts will be stored in the `dist/` directory.
 
-    import { AngularDoubleScrollbarsComponent } from 'angular-double-scrollbars';
+## Publishing
 
-    declarations: [
-    ...
-    AngularDoubleScrollbarsComponent
-  ] ...
+After building your library with `ng build angular-double-scrollbars`, go to the dist folder `cd dist/angular-double-scrollbars` and run `npm publish`.
 
-1. Use in code: 
-```
- <lib-angular-double-scrollbars doubleScrollBarHorizontal='always'>
-    looooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooong text
- </lib-angular-double-scrollbars>
-```
+## Running unit tests
 
- Example [plunker](https://next.plnkr.co/edit/liGXeHHE7kQRbE5M)
+Run `ng test angular-double-scrollbars` to execute the unit tests via [Karma](https://karma-runner.github.io).
+
+## Further help
+
+To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
